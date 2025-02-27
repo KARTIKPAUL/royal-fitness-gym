@@ -37,14 +37,7 @@ const Navbar = ({ isTopOfPage, setSelectedPage }: Props) => {
                 <div className={`${flexBetween} gap-8 text-lg`}>
                   <Link to="/" className="hover:text-primary-500 duration-200">Home</Link>
                   <Link to="/about-us" className="hover:text-primary-500 duration-200">About Us</Link>
-                  {/* <Dropdown
-                    buttonLabel="Trainers"
-                    options={[
-                      { label: "Certified Trainer", href: "/certified-trainer" },
-                      { label: "Personal Trainer", href: "/personal-trainer" },
-                      { label: "Yoga & Zumba Trainer", href: "/yoga-zumba-trainer" }
-                    ]}
-                  /> */}
+                  
                   <Link to="/features" className="hover:text-primary-500 duration-200">Features</Link>
                   <Link to="/equipments" className="hover:text-primary-500 duration-200">Equipment</Link>
                   <Dropdown
@@ -97,14 +90,7 @@ const Navbar = ({ isTopOfPage, setSelectedPage }: Props) => {
                 {[
                   { to: "/", label: "Home" },
                   { to: "/about-us", label: "About Us" },
-                  // { 
-                  //   label: "Trainers",
-                  //   subItems: [
-                  //     { to: "/certified-trainer", label: "Certified Trainer" },
-                  //     { to: "/personal-trainer", label: "Personal Trainer" },
-                  //     { to: "/yoga-zumba-trainer", label: "Yoga & Zumba Trainer" }
-                  //   ]
-                  // },
+                 
                   { to: "/features", label: "Features" },
                   { to: "/equipments", label: "Equipment" },
                   { 
